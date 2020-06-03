@@ -1,3 +1,4 @@
+
 # Initialiser la configuration de git
 
 ```bash
@@ -8,7 +9,7 @@ git config --global user.email johndoe@example.com
 # Créer un repo git
 
 ```bash
-git init
+git init 
 ```
 
 Ou, pour un repo sans copie de travail:
@@ -36,7 +37,7 @@ git reset fichier # git restore fichier --staged
 # Arrêter de traquer un fichier
 
 ```bash
-git rm filename
+git rm filename  
 ```
 
 Arreter de traquer, mais garder la copie de travail
@@ -106,13 +107,13 @@ git branch nom
 Changer de branche
 
 ```bash
-git checkout nom # ou git switch nom
+git checkout nom # ou git switch nom 
 ```
 
 Les deux d'un coup
 
-````bash
-git checkout -b nom # ou git switch -c nom
+```bash
+git checkout -b nom # ou git switch -c nom 
 
 
 Il faut une copie de travail propre
@@ -121,9 +122,10 @@ Il faut une copie de travail propre
 
 ```bash
 git tag nom
-````
+```
 
 # Mettre de côté des modifications
+
 
 ```bash
 git stash
@@ -198,15 +200,14 @@ git blame fichier
 # Trouver un bug par dichotomie
 
 ```bash
-git bisect start le_plus_recent le_plus_vieux
+git bisect start le_plus_recent le_plus_vieux 
 git bisect run script
 git bisest reset
 ```
-
 # Rebase
 
 ```bash
-git rebase [-i] ref
+git rebase [-i] ref 
 ```
 
 La resolution se fait avec `git mergetool`.
@@ -217,6 +218,17 @@ Si on a fait un "edit", il faudra faire un `git commit --amend` après l'éditio
 
 # Filter branch
 
+```bash
 git filter-branch -f --index-filter "commande" HEAD
+```
 
-Super doc!
+# Créer sa clé ssh
+
+```bash
+ssh-keygen
+```
+
+
+
+# La suite sur github : 
+https://github.com/ksamuel/reimagined-octo-goggles
