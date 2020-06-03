@@ -219,4 +219,4 @@ Si on a fait un "edit", il faudra faire un `git commit --amend` après l'éditio
 
 git filter-branch -f --index-filter "commande" HEAD
 
-Super Doc!
+Super doc!
