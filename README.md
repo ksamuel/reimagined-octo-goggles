@@ -219,3 +219,7 @@ Si on a fait un "edit", il faudra faire un `git commit --amend` après l'éditio
 # Filter branch
 
 git filter-branch -f --index-filter "commande" HEAD
+
+
+
+coucou
