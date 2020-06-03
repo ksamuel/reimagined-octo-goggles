@@ -227,3 +227,8 @@ git filter-branch -f --index-filter "commande" HEAD
 ```bash
 ssh-keygen
 ```
+
+
+
+# La suite sur github : 
+https://github.com/ksamuel/reimagined-octo-goggles
