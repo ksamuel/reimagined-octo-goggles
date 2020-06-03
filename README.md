@@ -218,4 +218,12 @@ Si on a fait un "edit", il faudra faire un `git commit --amend` après l'éditio
 
 # Filter branch
 
+```bash
 git filter-branch -f --index-filter "commande" HEAD
+```
+
+# Créer sa clé ssh
+
+```bash
+ssh-keygen
+```
