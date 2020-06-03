@@ -219,6 +219,13 @@ Si on a fait un "edit", il faudra faire un `git commit --amend` après l'éditio
 
 # Filter branch
 
+<<<<<<< HEAD
+git filter-branch -f --index-filter "commande" HEAD
+
+
+
+coucou
+=======
 ```bash
 git filter-branch -f --index-filter "commande" HEAD
 ```
@@ -233,3 +240,4 @@ ssh-keygen
 
 # La suite sur github : 
 https://github.com/ksamuel/reimagined-octo-goggles
+>>>>>>> 78d1ebf3d8b9677b5506e2698a9ddeab27fec998
