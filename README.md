@@ -1,3 +1,4 @@
+# Grand mot d'amour pour Kévin :D
 
 # Initialiser la configuration de git
 
